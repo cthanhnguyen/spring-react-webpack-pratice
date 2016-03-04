@@ -1,11 +1,8 @@
 import React from 'react';
+import Note from './Note';
 
-const App = React.createClass({
+export default class App extends React.Component {
   render() {
-    return (
-      <div>Hello</div>
-    );
+    return <Note />;
   }
-});
-
-export default App;
+}
